@@ -60,8 +60,7 @@ kla_restoration/
 
 4. **Run inference exactly as KLA will benchmark it:**
    ```
-   python scripts/infer.py --input_dir /path/to/test_images \
-       --output_dir outputs --checkpoint checkpoints/best_model.pt --scale 2
+   python run.py /path/to/test_images outputs
    ```
 
 5. **Self-score before submitting:**
